@@ -1,0 +1,1 @@
+{"books":[{"id":"1","name":"Graph Monte Kristo","author":"Alexander Duma","status":false},{"id":"2","name":"Jane Eir","author":"Sharlotta Bronte","status":true},{"id":"123","name":"Roxolana","author":"none","status":true}],"readers":[{"id":"1","name":"John","surname":"Smith","books":[{"id":"1","name":"Graph Monte Kristo","author":"Alexander Duma","status":false}]}]}

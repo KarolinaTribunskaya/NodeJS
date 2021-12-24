@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+</head>
+<style>
+    a{
+        display: block;
+        float: left;
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+        padding: 5px;
+        border-style: solid;
+        border-color: #000;
+        border-width: 1px;
+    }
+    p {
+        float: left;
+    }
+    li {
+        margin-bottom: 10px;
+        text-decoration: none;
+        list-style-type: none;
+        padding-right: 0px;
+    }
+    ul {
+        padding: 0px;
+    }
+</style>
+<body>
+<div style="margin-bottom: 40px;">
+    <h1>Книжковий фонд бібліотеки</h1>
+    <a href="/add_book">Додати книгу</a>
+    <a href="/add_reader">Додати читача</a>
+    <a href="/del_book">Видалити книгу</a>
+    <a href="/del_reader">Видалити читача</a>
+    <a href="/give_book">Видати книгу</a>
+    <a href="/back_book">Здати книгу</a>
+    <br>
+</div>
+<div>
+    <h3>Форма для додавання книги</h3>
+    <form action="/add_book" method="post">
+        <ul>
+            <li>
+                <label for="id">id:</label>
+                <input type="text" id="id" name="id">
+            </li>
+            <li>
+                <label for="name">Назва:</label>
+                <input type="text" id="name" name="name">
+            </li>
+            <li>
+                <label for="author">Автор:</label>
+                <input type="text" id="author" name="author">
+            </li>
+            <li class="button">
+                <button type="submit">Додати книгу</button>
+            </li>
+        </ul>
+    </form>
+</div>
+</body>
+</html>
